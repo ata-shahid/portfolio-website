@@ -13,7 +13,6 @@ const Navbar = ({openNav}: NavbarProps) => {
       <div className='nav-link text-white'>Home</div >
       <div className='nav-link text-white'>About</div >
       <div className='nav-link text-white'>Projects</div >
-      <div className='nav-link text-white'>Services</div >
       <div className='nav-link text-white'>Contact</div >
       <div onClick={openNav}>
         <Bars3Icon className='w-8 md:hidden h-8 cursor-pointer text-yellow-300'/>

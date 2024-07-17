@@ -14,7 +14,6 @@ const MobileNav = ({nav,closeNav}:MobileNavProps) => {
         <div className='nav-link-mobile'>Home</div>
         <div className='nav-link-mobile'>About</div>
         <div className='nav-link-mobile'>Projects</div>
-        <div className='nav-link-mobile'>Services</div>
         <div className='nav-link-mobile'>Contact</div>
       </div>
       <div onClick={closeNav} className='absolute z-[100000000] cursor-pointer top-8 right-8 w-8 h-8 text-yellow-400'>
