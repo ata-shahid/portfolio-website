@@ -7,14 +7,15 @@ const TextEffect = () => {
         // Same substring at the start will only be typed out once, initially
         'UI/UX Designer',
         1500, // wait 1s before replacing "Mice" with "Hamsters"
-        'Web Developer',
+        'Front-end Developer',
         1500,
         'Graphic Designer',
-        1500
+        1500,
+        
       ]}
       
       speed={50}
-      className='text-[2rem] md:text-[3rem] font-bold uppercase text-[#55e6a5]'
+      className='text-[2rem] md:text-[3rem] font-bold text-[#0BC5EA]'
       repeat={Infinity}
     />
   );
