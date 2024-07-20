@@ -64,7 +64,7 @@ const Particle: React.FC = () => {
             default: OutMode.out,
           },
           random: false,
-          speed: 4,  // Adjusted speed to 4
+          speed: 2,  // Adjusted speed to 4
           straight: false,
         },
         number: {
