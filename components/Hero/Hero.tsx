@@ -6,7 +6,7 @@ import { ArrowDownTrayIcon } from "@heroicons/react/16/solid";
 
 const Hero = () => {
   return (
-    <div className="relative h-[88vh] bg-[#0d1218] bg-cover bg-center flex items-center justify-center">
+    <div className="relative h-[88vh] bg-[#0d1218] mt-[5vh] bg-cover bg-center flex items-center justify-center">
       <Particle />
       <div className="absolute inset-0 bg-gradient-to-r from-black via-transparent to-black opacity-75"></div>
       <div className="relative z-10 w-[80%] mx-auto grid lg:grid-cols-2 gap-6 h-full items-center">
