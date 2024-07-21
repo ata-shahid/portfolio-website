@@ -1,12 +1,11 @@
-import { ArrowDownTrayIcon } from "@heroicons/react/16/solid";
 import Image from "next/image";
 import React from "react";
 
 const About = () => {
   return (
-    <div className="bg-[#192330] pb-12 pt-16 md:pt-[8rem]">
-      <div className="grid grid-cols-1 md:grid-cols-2 w-[80%] mx-auto gap-[3rem] items-center">
-        <div>
+    <div className="bg-[#192330] pb-12 pt-16 md:pt-[8rem] min-h-[90vh] flex"> 
+      <div className="flex flex-col md:flex-row w-[80%] mx-auto gap-[3rem] items-center">
+        <div className="flex-1">
           <h1 className="text-2xl font-bold uppercase text-[#0BC5EA] mb-4">
             About Me
           </h1>
@@ -26,15 +25,16 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className="lg:w-[500px] mx-auto md:mx-0 mt-[2rem] lg:mt-0 lg:h-[500px] w-[300px] h-[300px] relative">
-          <Image
-            src="/images/about.jpg"
-            alt="user"
-            layout="fill"
-            objectFit="contain"
-            className="relative t-[11] w-[100%] object-contain h-[100%]"
-          />
-          <div className="absolute w-[100%] h-[100%] z-[10] gb-[#0BC5EA] top-[-2rem] right[-2rem]"></div>
+        <div className="flex-1 flex justify-center md:justify-start mt-[2rem] lg:mt-0">
+          <div className="relative lg:w-[500px] lg:h-[500px] w-[300px] h-[300px]">
+            <Image
+              src="/images/about.jpg"
+              alt="user"
+              layout="fill"
+              objectFit="contain"
+              className="relative t-[11] w-[100%] object-contain h-[100%]"
+            />
+          </div>
         </div>
       </div>
     </div>
