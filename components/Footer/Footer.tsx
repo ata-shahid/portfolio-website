@@ -1,4 +1,5 @@
 import { EnvelopeIcon, MapPinIcon } from '@heroicons/react/16/solid'
+import Link from 'next/link'
 import React from 'react'
 
 // LinkedIn SVG icon
@@ -18,8 +19,8 @@ const Footer = () => {
           <div className='md:w-[5rem] md:h-[5rem] w-[5rem] h-[5rem] flex items-center justify-center rounded-full bg-[#0BC5EA]'>
             <MapPinIcon className="md:w-[2.5rem] md:h-[2.5rem] w-[2rem] h-[2rem] text-black"/>
           </div>
-          <div>
-            <h1 className='text-xl mb-[0.2rem] font-semibold text-white'>Location</h1>
+          <div className='border rounded-lg border-white bg-slate-700 flex flex-wrap p-2 items-center justify-start'>
+            <h1 className='text-xl mb-[0.2rem] font-semibold text-[#0BC5EA]'>Location</h1>
             <p className='text-lg w-[90%] text-white'>Wiesbaden, Germany</p>
           </div>
         </div>
@@ -27,10 +28,10 @@ const Footer = () => {
           <div className='md:w-[5rem] md:h-[5rem] w-[5rem] h-[5rem] flex items-center justify-center rounded-full bg-[#0BC5EA]'>
             <LinkedInIcon />
           </div>
-          <div>
-            <h1 className='text-xl mb-[0.2rem] font-semibold text-white'>LinkedIn</h1>
+          <div className='border rounded-lg border-white bg-slate-700 flex flex-wrap p-2 items-center justify-start'>
+            <h1 className='text-xl mb-[0.2rem] font-semibold text-[#0BC5EA]'>LinkedIn</h1>
             <p className='text-lg w-[90%] text-white'>
-              <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">linkedin.com/in/your-profile</a>
+              <Link href="https://www.linkedin.com/in/ataul-shahid-a66888229/" target="_blank" rel="noopener noreferrer" className='hover:text-yellow-400 cursor-pointer'>Click Me</Link>
             </p>
           </div>
         </div>
@@ -38,17 +39,17 @@ const Footer = () => {
           <div className='md:w-[5rem] md:h-[5rem] w-[5rem] h-[5rem] flex items-center justify-center rounded-full bg-[#0BC5EA]'>
             <EnvelopeIcon className="md:w-[2.5rem] md:h-[2.5rem] w-[2rem] h-[2rem] text-black"/>
           </div>
-          <div>
-            <h1 className='text-xl mb-[0.2rem] font-semibold text-white'>Email</h1>
-            <p className='text-lg w-[90%] text-white'>your.email@example.com</p>
+          <div className='border rounded-lg border-white bg-slate-700 flex flex-wrap p-2 items-center justify-start'>
+            <h1 className='text-xl mb-[0.2rem] font-semibold text-[#0BC5EA]'>Email</h1>
+            <p className='text-lg w-[90%] text-white'>atashahid@web.de</p>
           </div>
         </div>
       </div>
       </div>
 
       <div className='flex flex-col mt-[2rem] w-[80%] mx-auto items-center'>
-        <div className='text-lg mb-8 md:mb-0 text-white opacity-20 text-center'>
-          Ataul Shahid | All Rights Reserved 2024
+        <div className='text-lg mb-8 md:mb-0 text-white opacity-50 text-center'>
+         &copy; 2024 Ataul Shahid | All Rights Reserved
         </div>
       </div>
     </div>
