@@ -15,7 +15,14 @@ const About = () => {
           </h2>
           <div className="mb-[3rem] flex items-center md:space-x-10">
             <p className="text-xl text-slate-300 w-[80%]">
-            Ich bin fasziniert von der Verbindung von Kreativität und Technologie. Mit einem Auge für Design und Benutzerfreundlichkeit arbeite ich daran, digitale Lösungen zu schaffen, die schön und einfach zu bedienen sind. Mein Ziel ist es, durch neue Ideen digitale Produkte zu entwickeln, die Menschen inspirieren und begeistern.Meine Inspiration schöpfe ich aus den kleinen Dingen des Alltags, der Natur und in den unendlichen Möglichkeiten der digitalen Welt.
+            Fasziniert von der Verbindung von Kreativität und Technologie, arbeite ich mit einem Auge für Design und Benutzerfreundlichkeit daran, digitale Lösungen zu schaffen, die schön und einfach zu bedienen sind. Das Ziel ist es, durch neue Ideen digitale Produkte zu entwickeln, die Menschen inspirieren und begeistern. Die Inspiration wird aus den kleinen Dingen des Alltags, der Natur und den unendlichen Möglichkeiten der digitalen Welt geschöpft.
+
+
+
+
+
+
+
             </p>
           </div>
          
