@@ -8,7 +8,7 @@ import LinkedIn from '../Icons/LinkedIn'
 
 const Contact = () => {
   return (
-    <div className='pt-[8rem] pb-16 bg-[#192330]'>
+    <div className='pt-[8rem] pb-16 bg-[#09101a]'>
       <h1 className='heading'>Con<span className='text-yellow-400'>tact</span></h1>
       <div className='mt-10 pt-8'>
       <div className='flex border-b-[1px] pb-[6rem] border-gray-400 w-[80%] mx-auto gap-12 justify-between'>
