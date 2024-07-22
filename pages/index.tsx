@@ -6,7 +6,7 @@ import Hero from "@/components/Hero/Hero";
 import About from "@/components/About/About";
 import Skills from "@/components/Skills/Skills";
 import Projects from "@/components/Projects/Projects";
-import Footer from "@/components/Footer/Footer";
+import Contact from "@/components/Contact/Contact";
 
 const HomePage = () => {
   const [nav, setNav] = useState(false);
@@ -37,7 +37,7 @@ const HomePage = () => {
           </div>
           
           <div id="contact">
-            <Footer />
+            <Contact />
           </div>
         </div>
       </div>

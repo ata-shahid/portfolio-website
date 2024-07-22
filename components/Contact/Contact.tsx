@@ -6,7 +6,7 @@ import LinkedIn from '../Icons/LinkedIn'
 
 
 
-const Footer = () => {
+const Contact = () => {
   return (
     <div className='pt-[8rem] pb-16 bg-[#192330]'>
       <h1 className='heading'>Con<span className='text-yellow-400'>tact</span></h1>
@@ -55,4 +55,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default Contact
