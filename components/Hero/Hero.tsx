@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import Particle from "../Particle/Particle";
 import TextEffect from "../TextEffect/TextEffect";
 import Image from "next/image";
@@ -6,6 +6,7 @@ import { ArrowDownTrayIcon } from "@heroicons/react/16/solid";
 
 const Hero = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
+  const dropdownRef = useRef<HTMLDivElement>(null);
 
   const handleDownload = (language: string) => {
     const link = document.createElement('a');
@@ -13,6 +14,24 @@ const Hero = () => {
     link.download = language === 'EN' ? 'Resume_EN.pdf' : 'Resume_DE.pdf';
     link.click();
   };
+
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
+        setDropdownOpen(false);
+      }
+    };
+
+    if (dropdownOpen) {
+      document.addEventListener("mousedown", handleClickOutside);
+    } else {
+      document.removeEventListener("mousedown", handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [dropdownOpen]);
 
   return (
     <div className="relative h-[100vh] bg-[#0d1218] mt-[5vh] bg-cover bg-center flex items-center justify-center">
@@ -30,7 +49,7 @@ const Hero = () => {
           </p>
 
           <div className="mt-8 flex flex-col space-y-6 sm:space-y-0 sm:flex-row items-center sm:space-x-6 relative">
-            <div className="relative">
+            <div className="relative" ref={dropdownRef}>
               <button
                 className={`px-8 hover:bg-yellow-400 transition-all duration-200 py-4 text-lg font-bold bg-[#0BC5EA] text-black items-center flex space-x-2 rounded-xl w-full ${dropdownOpen ? 'rounded-b-none' : ''}`}
                 onClick={() => setDropdownOpen(!dropdownOpen)}

@@ -1,3 +1,4 @@
+// HomePage Component
 import React, { useState } from "react";
 import Navbar from "@/components/Navbar/Navbar";
 import MobileNav from "@/components/MobileNav/MobileNav";
@@ -19,21 +20,26 @@ const HomePage = () => {
         <MobileNav nav={nav} closeNav={closeNav} />
         <Navbar openNav={openNav} />
         {/* Hero Section */}
-        <Hero />
-        <div className="relative z-30">
-          {/** About */}
-
-          <About />
-          <Skills/>
-
-          {/* Projects */}
-          <Projects/>
-
-          
-
-          <Footer/>
+        <div id="hero">
+          <Hero />
         </div>
-        
+        <div className="relative z-30">
+          {/* About */}
+          <div id="about">
+            <About />
+          </div>
+          <Skills />
+          {/* Projects */}
+          <div id="projects">
+            <Projects />
+          </div>
+          <div id="skills">
+            <Skills />
+          </div>
+          <div id="contact">
+            <Footer />
+          </div>
+        </div>
       </div>
     </div>
   );
