@@ -28,14 +28,14 @@ const HomePage = () => {
           <div id="about">
             <About />
           </div>
-          <Skills />
+          <div id="skills">
+            <Skills />
+          </div>
           {/* Projects */}
           <div id="projects">
             <Projects />
           </div>
-          <div id="skills">
-            <Skills />
-          </div>
+          
           <div id="contact">
             <Footer />
           </div>

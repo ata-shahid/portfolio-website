@@ -14,8 +14,9 @@ const Navbar = ({ openNav }: NavbarProps) => {
 
         <Link to="hero" smooth={true} duration={900} className='nav-link text-white'>Home</Link>
         <Link to="about" smooth={true} duration={900} className='nav-link text-white'>About</Link>
-        <Link to="projects" smooth={true} duration={900} className='nav-link text-white'>Projects</Link>
         <Link to="skills" smooth={true} duration={900} className='nav-link text-white'>Skills</Link>
+        <Link to="projects" smooth={true} duration={900} className='nav-link text-white'>Projects</Link>
+       
         <Link to="contact" smooth={true} duration={900} className='nav-link text-white'>Contact</Link>
         <div onClick={openNav}>
           <Bars3Icon className='w-8 md:hidden h-8 cursor-pointer text-yellow-300' />

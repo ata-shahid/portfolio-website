@@ -7,7 +7,7 @@ const TextEffect = () => {
         // Same substring at the start will only be typed out once, initially
         'UI/UX Designer',
         1500, // wait 1s before replacing "Mice" with "Hamsters"
-        'Front-end Developer',
+        'Web Developer',
         1500,
         'Graphic Designer',
         1500,
