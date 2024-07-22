@@ -31,7 +31,9 @@ const Hero = () => {
               <Image 
                 src="/images/pic.png" 
                 alt="profile pic" 
-                layout="fill" 
+                fill 
+                priority
+                sizes="100%"
                 className="object-cover rounded-full transform translate-y-9"
               />
             </div>

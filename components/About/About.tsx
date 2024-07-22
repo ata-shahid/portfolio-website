@@ -30,8 +30,9 @@ const About = () => {
             <Image
               src="/images/about.jpg"
               alt="user"
-              layout="fill"
-              objectFit="contain"
+              fill
+              priority
+              sizes="100%"
               className="relative t-[11] w-[100%] object-contain h-[100%]"
             />
           </div>

@@ -9,32 +9,37 @@ const Projects = () => {
         <div className='w-[80%] pt-8 mx-auto flex flex-wrap gap-16 mt-8'>
             <div className='flex-1 min-w-[300px]'>
                 <div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-full h-[200px] md:h-[300px]'>
-                    <Image src="/images/about.jpg" alt="project" layout="fill" className="object-contain"/>
+                    <Image src="/images/about.jpg" alt="project" fill sizes='100%' priority className="object-contain"/>
                 </div>
             </div>
             <div className='flex-1 min-w-[300px]'>
                 <div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-full h-[200px] md:h-[300px]'>
-                    <Image src="/images/about.jpg" alt="project" layout="fill" className="object-contain"/>
+                    <Image src="/images/about.jpg" alt="project" fill
+                    priority sizes='100%' className="object-contain"/>
                 </div>
             </div>
             <div className='flex-1 min-w-[300px]'>
                 <div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-full h-[200px] md:h-[300px]'>
-                    <Image src="/images/about.jpg" alt="project" layout="fill" className="object-contain"/>
+                    <Image src="/images/about.jpg" alt="project" fill
+                    priority sizes='100%' className="object-contain"/>
                 </div>
             </div>
             <div className='flex-1 min-w-[300px]'>
                 <div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-full h-[200px] md:h-[300px]'>
-                    <Image src="/images/about.jpg" alt="project" layout="fill" className="object-contain"/>
+                    <Image src="/images/about.jpg" alt="project" fill
+                    priority sizes='100%' className="object-contain"/>
                 </div>
             </div>
             <div className='flex-1 min-w-[300px]'>
                 <div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-full h-[200px] md:h-[300px]'>
-                    <Image src="/images/about.jpg" alt="project" layout="fill" className="object-contain"/>
+                    <Image src="/images/about.jpg" alt="project" fill
+                    priority sizes='100%' className="object-contain"/>
                 </div>
             </div>
             <div className='flex-1 min-w-[300px]'>
                 <div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-full h-[200px] md:h-[300px]'>
-                    <Image src="/images/about.jpg" alt="project" layout="fill" className="object-contain"/>
+                    <Image src="/images/about.jpg" alt="project" fill
+                    priority sizes='100%' className="object-contain"/>
                 </div>
             </div>
         </div>
