@@ -18,16 +18,16 @@ const Projects = () => {
   const projects = [
     {
       title: "Weather App",
-      description: "A weather application that shows current weather data for any location.",
-      image: "/images/about.jpg",
-      link: "https://github.com/ata-shahid?tab=repositories",
+      description: "A weather application that shows weather forecast for any location.",
+      image: "/images/wetter.png",
+      link: "https://github.com/ata-shahid/weather-app",
       technologies: ["React", "API", "Next.js","Tailwind CSS"],
     },
     {
       title: "Design Thinking Project",
       description: "A project based on the principles of design thinking.",
-      image: "/images/about.jpg",
-      link: "https://github.com/ata-shahid?tab=repositories",
+      image: "/images/dt.png",
+      link: "https://github.com/ata-shahid/design-thinking",
       technologies: ["Figma","Microsoft Office"],
     },
     // Add more projects here

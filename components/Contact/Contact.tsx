@@ -41,7 +41,7 @@ const Contact = () => {
             <BsTwitterX />
           </div>
           <div className='border rounded-lg border-white bg-slate-700 flex flex-wrap p-2 items-center justify-start'>
-            <h1 className='text-xl mb-[0.2rem] font-semibold text-[#0BC5EA]'>LinkedIn</h1>
+            <h1 className='text-xl mb-[0.2rem] font-semibold text-[#0BC5EA]'>X</h1>
             <p className='text-lg w-[90%] text-white'>
               <Link href="https://x.com/AtaulShahid" target="_blank" rel="noopener noreferrer" className='hover:text-yellow-400 cursor-pointer'>Click Me</Link>
             </p>
