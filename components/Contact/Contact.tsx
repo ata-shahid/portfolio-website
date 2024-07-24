@@ -3,9 +3,7 @@ import Link from 'next/link'
 import React from 'react'
 import GitHub from '../Icons/GitHub'
 import LinkedIn from '../Icons/LinkedIn'
-import { BsTwitter, BsTwitterX } from 'react-icons/bs'
-import { RiTwitterXFill } from 'react-icons/ri'
-
+import { BsTwitterX } from 'react-icons/bs'
 
 
 const Contact = () => {
