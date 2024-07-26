@@ -33,8 +33,8 @@ const Projects = () => {
       title: "UI/UX Design",
       description: "Sample UI/UX designs.",
       image: "/images/sample.png",
-      link: "https://github.com/ata-shahid/design-thinking",
-      technologies: ["Figma","Microsoft Office"],
+      link: "https://github.com/ata-shahid/design-samples",
+      technologies: ["Figma"],
     },
     // Add more projects here
   ];
