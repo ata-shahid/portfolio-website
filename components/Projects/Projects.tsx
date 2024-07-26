@@ -41,7 +41,7 @@ const Projects = () => {
           {projects.map((project, index) => (
             <div key={index} className='px-4'>
               <div className='relative w-full h-[300px] md:h-[400px]'>
-                <Image src={project.image} alt={project.title} layout="fill" className="object-contain rounded-lg"/>
+                <Image src={project.image} alt={project.title} fill className="object-contain rounded-lg"/>
               </div>
               <h2 className='text-2xl font-bold text-white mt-4'>{project.title}</h2>
               <p className='text-lg text-slate-300 mt-2'>{project.description}</p>
