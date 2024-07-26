@@ -6,13 +6,24 @@
 
 @layer components {
   .nav-link {
-    @apply relative font-semibold text-white cursor-pointer text-lg w-fit md:block after:block after:content-[''] after:absolute after:h-1 after:bg-yellow-400 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center hidden
+    @apply relative font-semibold text-white cursor-pointer text-lg w-fit md:block after:block after:content-[''] after:absolute after:h-1 after:bg-yellow-400 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center hidden;
   }
-  .nav-link-mobile{
-    @apply relative mb-8 font-semibold text-white cursor-pointer text-[1.6875rem] w-fit md:block after:block after:content-[''] after:absolute after:h-1 after:bg-yellow-400 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center
+  .nav-link-mobile {
+    @apply relative mb-8 font-semibold text-white cursor-pointer text-[1.6875rem] w-fit md:block after:block after:content-[''] after:absolute after:h-1 after:bg-yellow-400 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center;
   }
-.heading {
-  @apply text-center text-white text-3xl sm:text-4xl md:text-5xl font-bold uppercase
+  .heading {
+    @apply text-center text-white text-3xl sm:text-4xl md:text-5xl font-bold uppercase;
+  }
 }
 
+/* Customizing slick dots */
+.slick-dots li button:before {
+ 
+  font-size: 16px !important;
+}
+
+
+.slick-dots li.slick-active button:before {
+  color: #FFD700 !important; 
+  font-size: 16px !important; 
 }
