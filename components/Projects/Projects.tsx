@@ -29,6 +29,12 @@ const Projects = () => {
       image: "/images/dt.png",
       link: "https://github.com/ata-shahid/design-thinking",
       technologies: ["Figma","Microsoft Office"],
+    },{
+      title: "UI/UX Design",
+      description: "Sample UI/UX designs.",
+      image: "/images/sample.png",
+      link: "https://github.com/ata-shahid/design-thinking",
+      technologies: ["Figma","Microsoft Office"],
     },
     // Add more projects here
   ];
