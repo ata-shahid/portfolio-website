@@ -9,7 +9,7 @@ interface LanguageProps {
   level3: string;
 }
 
-const Language = ({level1, level2, level3, skill1, skill2, skill3}: LanguageProps) => {
+const Language = ({ level1, level2, level3, skill1, skill2, skill3 }: LanguageProps) => {
   return (
     <div>
       <div className='relative mb-12'>
