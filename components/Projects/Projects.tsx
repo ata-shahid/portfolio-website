@@ -30,8 +30,8 @@ const Projects = () => {
       link: "https://github.com/ata-shahid/design-thinking",
       technologies: ["Figma","Microsoft Office"],
     },{
-      title: "UI/UX Design",
-      description: "Sample UI/UX designs.",
+      title: "Design Projects",
+      description: "Design samples.",
       image: "/images/sample.png",
       link: "https://github.com/ata-shahid/design-samples",
       technologies: ["Figma"],
