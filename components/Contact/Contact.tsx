@@ -57,7 +57,7 @@ const Contact = () => {
       </div>
       
       <div className='flex flex-col mt-[2rem] w-[80%] mx-auto items-center'>
-        <div className='text-lg mb-8 md:mb-0 text-white opacity-50 text-center'>
+        <div className='text-sm md:text-lg mb-8 md:mb-0 text-white opacity-50 text-center'>
          &copy; 2024 Ataul Shahid | All Rights Reserved
         </div>
       </div>
