@@ -7,7 +7,7 @@ import About from "@/components/About/About";
 import Skills from "@/components/Skills/Skills";
 import Projects from "@/components/Projects/Projects";
 import Contact from "@/components/Contact/Contact";
-import MobileBanner from "@/components/MobileBanner/MobileBanner";
+
 
 const HomePage = () => {
   const [nav, setNav] = useState(false);
@@ -41,7 +41,7 @@ const HomePage = () => {
             <Contact />
           </div>
         </div>
-        <MobileBanner/>
+        
       </div>
     </div>
   );
