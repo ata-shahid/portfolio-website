@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import Particle from "../Particle/Particle";
 import TextEffect from "../TextEffect/TextEffect";
 import Image from "next/image";
-import { ArrowDownTrayIcon } from "@heroicons/react/16/solid";
+import { ArrowDownTrayIcon } from "@heroicons/react/24/solid";
 
 const Hero = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -37,7 +37,7 @@ const Hero = () => {
     <div className="relative h-[100vh] bg-[#0d1218] mt-[5vh] bg-cover bg-center flex flex-col items-center justify-center lg:flex-row md:flex-row">
       <Particle />
       <div className="absolute inset-0 bg-gradient-to-r from-black via-transparent to-black opacity-75"></div>
-      <div className="relative z-10 w-[90%] sm:w-[80%] mx-auto flex flex-col items-center lg:flex-row md:flex-row gap-6 h-full lg:items-center md:items-center mt-16 lg:mt-0 md:mt-0"> 
+      <div className="relative z-10 w-[90%] sm:w-[80%] mx-auto flex flex-col items-center lg:flex-row md:flex-row gap-6 h-full lg:items-center md:items-center mt-16 lg:mt-0 md:mt-0">
         <div className="flex flex-col items-center lg:flex-1 md:flex-1 lg:justify-start md:justify-start lg:order-2 md:order-2 mt-4 lg:mt-0 md:mt-0">
           <div className="w-[10rem] h-[10rem] sm:w-[15rem] sm:h-[15rem] md:w-[20rem] md:h-[20rem] lg:w-[24rem] lg:h-[24rem] rounded-full p-[2px] bg-gradient-to-r from-gray-700 via-gray-500 to-gray-700">
             <div className="relative w-full h-full bg-[#0d1218] rounded-full flex items-center justify-center overflow-hidden shadow-2xl">
