@@ -49,7 +49,7 @@ const Hero = () => {
                 fill
                 priority
                 sizes="100%"
-                className="object-cover rounded-full mt-14"
+                className="object-cover rounded-full"
 
               />
               
