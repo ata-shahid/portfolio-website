@@ -42,14 +42,17 @@ const Hero = () => {
           <div className="relative w-[10rem] h-[10rem] sm:w-[15rem] sm:h-[15rem] md:w-[20rem] md:h-[20rem] lg:w-[48rem] lg:h-[48rem] rounded-full p-[2px] bg-gradient-to-r from-gray-700 via-gray-600 to-gray-700">
             <div className="absolute inset-0 bg-gradient-to-r from-gray-800 via-gray-700 to-gray-800 rounded-full blur-md"></div>
             <div className="relative w-full h-full bg-[#0d1218] rounded-full flex items-center justify-center overflow-hidden shadow-2xl">
+              
               <Image
                 src="/images/pic.png"
                 alt="profile pic"
                 fill
                 priority
                 sizes="100%"
-                className="object-cover rounded-full"
+                className="object-cover rounded-full mt-14"
+
               />
+              
             </div>
           </div>
         </div>
