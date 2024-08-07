@@ -39,7 +39,8 @@ const Hero = () => {
       <div className="absolute inset-0 bg-gradient-to-r from-black via-transparent to-black opacity-75"></div>
       <div className="relative z-10 w-[90%] sm:w-[80%] mx-auto flex flex-col items-center lg:flex-row md:flex-row gap-6 h-full lg:items-center md:items-center mt-16 lg:mt-0 md:mt-0">
         <div className="flex flex-col items-center lg:flex-1 md:flex-1 lg:justify-start md:justify-start lg:order-2 md:order-2 mt-4 lg:mt-0 md:mt-0">
-          <div className="w-[10rem] h-[10rem] sm:w-[15rem] sm:h-[15rem] md:w-[20rem] md:h-[20rem] lg:w-[24rem] lg:h-[24rem] rounded-full p-[2px] bg-gradient-to-r from-gray-700 via-gray-500 to-gray-700">
+          <div className="relative w-[10rem] h-[10rem] sm:w-[15rem] sm:h-[15rem] md:w-[20rem] md:h-[20rem] lg:w-[48rem] lg:h-[48rem] rounded-full p-[2px] bg-gradient-to-r from-gray-700 via-gray-600 to-gray-700">
+            <div className="absolute inset-0 bg-gradient-to-r from-gray-800 via-gray-700 to-gray-800 rounded-full blur-md"></div>
             <div className="relative w-full h-full bg-[#0d1218] rounded-full flex items-center justify-center overflow-hidden shadow-2xl">
               <Image
                 src="/images/pic.png"
